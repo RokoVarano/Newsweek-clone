@@ -1,11 +1,11 @@
 $theme-colors: (
-  "primary": #ff4136
+  "primary": #f32116
 );
 
 $container: (
+  font-family: 'Roboto Condensed', 'sans-serif',
   margin: 0,
-  padding: 0,
-  font-family: 'Roboto Condensed', sans-serif
+  padding: 0
 );
 
 .main-container {

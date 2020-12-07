@@ -4,7 +4,6 @@ node_modules
 .hintrc
 .idea
 .hint-report
-
 styles/custom.css
-
 styles/custom.css.map
+!node_modules/bootstrap

@@ -1,0 +1,7 @@
+.github
+package-lock.json
+node_modules
+.stylelintrc.json
+.hintrc
+.idea
+.hint-report

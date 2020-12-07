@@ -1,11 +1,15 @@
 $theme-colors: (
-  "primary": yellow,
-  "danger": #ff4136
+  "primary": #ff4136
 );
 
 $container: (
   margin: 0,
   padding: 0
 );
+
+.main-container {
+  padding: 20px 15px 0 15px;
+  background-color: rosybrown;
+}
 
 @import "../bootstrap/scss/bootstrap";

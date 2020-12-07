@@ -4,7 +4,8 @@ $theme-colors: (
 
 $container: (
   margin: 0,
-  padding: 0
+  padding: 0,
+  font-family: 'Roboto Condensed', sans-serif
 );
 
 .main-container {
@@ -12,4 +13,5 @@ $container: (
   background-color: rosybrown;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
 @import "../bootstrap/scss/bootstrap";

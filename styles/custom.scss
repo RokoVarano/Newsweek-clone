@@ -7,12 +7,11 @@ $pic-red-title: #f4f5f6;
 $container: (
   margin: 0,
   padding: 0,
-  font-family: 'Roboto Condensed, sans-serif'
 );
 
 .main {
   padding: 20px 15px 0 15px;
-  background-color: rosybrown;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .card-image {
@@ -23,6 +22,10 @@ $container: (
     bottom: 0;
     left: 0;
   }
+}
+
+.font-small {
+  font-size: 13px;
 }
 
 .location-md {
@@ -74,5 +77,5 @@ $container: (
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import "../bootstrap/scss/bootstrap";

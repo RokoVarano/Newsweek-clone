@@ -31,5 +31,28 @@ $container: (
   left: 50%;
 }
 
+.subscribe-img-container {
+  max-width: 230px;
+  height: 230px;
+  justify-self: center;
+
+  .subscribe-img {
+    position: absolute;
+    width: 170px;
+    height: 227px;
+  }
+
+  .img-bg {
+    top: 0;
+    left: 0;
+  }
+
+  .img-fg {
+    top: 10px;
+    right: 0;
+    z-index: 2;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
 @import "../bootstrap/scss/bootstrap";

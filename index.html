@@ -10,14 +10,42 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body> 
-  <!-- Header -->
-  <header>
-    <nav class="d-flex justify-content-between navbar-expand-lg container-fluid bg-primary">
-      <div class="row container navbar-brand text-white ml-3 text-bolder">NewsWeek</div>
-      <div class="row container-fluid align-items-center d-flex justify-content-end p-1">
-        <i class="fas fa-user mr-3 text-white"></i>
-        <button class="btn bg-warning rounded mr-2" type="submit">Subscribe > </button>
-        <i class="fas fa-bars mr-2 text-white"></i>
+  <!-- Abdul khaliq Navigation Bar -->
+  <header class="">
+    <nav class="">
+      <!-- for bigger screen -->
+      <div class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between" id="hidden-lg">
+        <div class="col-auto align-self-center text-white text-weight-bold badge badge-secondary">
+          <span class="weather-country">
+            22° Lahore, PK >
+          </span>
+          <div class="col-1 flex-xs-6">
+            <p>Tue,Dec08,2020</p>
+          </div>
+        </div>
+        <div class="col-6 align-self-center text-white text-weight-bold display-1 d-flex justify-content-center border border-dark">NewsWeek</div>
+        <div class="col-auto d-flex align-items-center border border-dark">
+          <h3 class="m-2 text-white fs-3">LOGIN</h3>
+          <button type="button" class="btn btn-warning m-2 badge badge-secondary text-dark">Subsribe ></button>
+        </div>
+      </div>      
+      <!-- desktop navigation lg size-->
+      <div class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-lg-none" id="hidden-md">
+        <div class="col-auto align-self-center text-white text-weight-bold fs-2">NewsWeek</div>
+        <div class="col-auto d-flex align-items-center">
+          <h3 class="m-2 text-white fs-3">LOGIN</h3>
+          <button type="button" class="btn btn-warning m-2">Subsribe ></button>
+          <i class="fa fa-bars m-2 text-white fs-2" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- mobile navigation md size-->
+      <div class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-md-none" >
+        <div class="col-auto align-self-center text-white text-weight-bold fs-2">NewsWeek</div>
+        <div class="col-auto d-flex align-items-center">
+          <i class="fa fa-user m-2 text-white" aria-hidden="true"></i>
+          <button type="button" class="btn btn-warning m-2">Subsribe ></button>
+          <i class="fa fa-bars m-2 text-white" aria-hidden="true"></i>
+        </div>
       </div>
     </nav>
   </header>
@@ -141,22 +169,77 @@
     </section>
 
 <!--/Rodrigo-->
-
-    <section class="container-fluid mt-5 mb-5 position-relative">
-      <div class="text-dark">THE DEBATE</div>
-      <div class="border border-dark mt-4 mb-5"></div>
-      <div class="d-flex justify-content-start mb-4">
-        <img class="mr-3 ml-3" src="./assets/josh.png" alt="profile_pic" width="50" height="50" >
+<!-- ABDUL KHALIQ -->
+    <section class="container-fluid mt-5 mb-5 border border-dark rounded bg-light position-relative">
+      <div class="text-dark mt-3 font-weight-bold">THE DEBATE</div>
+      <div class="border border-dark mt-3 mb-3 border border-dark bg-dark" style="padding:0.1rem;"></div>
+      <div class="d-flex justify-content-start align-items-center mb-4">
+        <img class="mr-3 ml-3" src="./assets/josh.png" alt="profile_pic" width="64" height="64">
         <p><span>Should Trump Concede? Yes</span><br> BY <strong>JONATHAN TOBIN</strong></p>
       </div>
-      <div class="position-relative border border-dark"><p class="position-absolute location-md">VS</p></div>
-      <div class="d-flex justify-content-end mt-4">
-        <p class="d-flex-column justify-content-end" ><span>Should Trump Concede? Yes</span><br> BY <strong>JONATHAN TOBIN</strong></p>
-        <img class="mr-3 ml-3" src="./assets/josh.png" alt="profile_pic" width="50" height="50">
+      <div class="position-relative border border-dark top-center">
+        <p class="position-absolute location-md rounded-circle bg-dark text-white p-1" style="top: -16px;height: 32px;">VS</p>
       </div>
-      <div class="border border-dark mt-4 mb-4"></div>
+      <div class="d-flex justify-content-end align-items-center mt-4">
+        <p class="d-flex-column justify-content-end" ><span>Should Trump Concede? Yes</span><br> BY <strong>JONATHAN TOBIN</strong></p>
+        <img class="mr-3 ml-3" src="./assets/josh.png" alt="profile_pic" width="64" height="64">
+      </div>
+      <div class="border border-dark mt-3 mb-3 border border-dark bg-dark" style="padding:0.1rem;"></div>
     </section>
 
+    <section class="d-flex flex-column container-fluid mt-5 mb-5 border border-dark rounded bg-light position-relative">
+      <div class="text-dark mt-3 font-weight-bold">OPTION</div>
+      <div class="media border-bottom mt-3 mb-1">
+        <img class="mr-3" src="./assets/arif.png" alt="Generic placeholder image" width="64px" height="64px">
+        <div class="media-body">
+          <h5 class="mt-0">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h5>
+          BY ROBERT REICH
+        </div>
+      </div>
+      <div class="media border-bottom mt-3 mb-1">
+        <img class="mr-3" src="./assets/arif.png" alt="Generic placeholder image" width="64px" height="64px">
+        <div class="media-body">
+          <h5 class="mt-0">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h5>
+          BY ROBERT REICH
+        </div>
+      </div>
+      <div class="media border-bottom mt-3 mb-1">
+        <img class="mr-3" src="./assets/arif.png" alt="Generic placeholder image" width="64px" height="64px">
+        <div class="media-body">
+          <h5 class="mt-0">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h5>
+          BY ROBERT REICH
+        </div>
+      </div>
+      <div class="media border-bottom mt-3 mb-1">
+        <img class="mr-3" src="./assets/arif.png" alt="Generic placeholder image" width="64px" height="64px">
+        <div class="media-body">
+          <h5 class="mt-0">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h5>
+          BY ROBERT REICH
+        </div>
+      </div>
+      <div class="media border-bottom mt-3 mb-1">
+        <img class="mr-3" src="./assets/arif.png" alt="Generic placeholder image" width="64px" height="64px">
+        <div class="media-body">
+          <h5 class="mt-0">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h5>
+          BY ROBERT REICH
+        </div>
+      </div>
+      <div class="media border-bottom mt-3 mb-1">
+        <img class="mr-3" src="./assets/arif.png" alt="Generic placeholder image" width="64px" height="64px">
+        <div class="media-body">
+          <h5 class="mt-0">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h5>
+          BY ROBERT REICH
+        </div>
+      </div>
+      <div class="media border-bottom mt-3 mb-1">
+        <img class="mr-3" src="./assets/arif.png" alt="Generic placeholder image" width="64px" height="64px">
+        <div class="media-body">
+          <h5 class="mt-0">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h5>
+          BY ROBERT REICH
+        </div>
+      </div>
+    </section>
+<!-- /Abdul khaliq -->
 <!--Rodrigo-->
   <section class="mb-3">
     <div class="card">
@@ -305,7 +388,97 @@
     </div>
   </section>
 <!--/Rodrigo-->
-
+<!-- ABDUL KHALIQ -->
+<section class="container-fluid mt-5 mb-5 border border-dark rounded bg-light position-relative">
+  <div class="text-dark mt-3 mb-3 font-weight-bold border-bottom mt-3 mb-3">MORE STORY</div>
+  <ul class="list-unstyled">
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media my-4 border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media my-4 border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media my-4 border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media my-4 border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media border-bottom mt-3 mb-3">
+      <img class="mr-3" src="./assets/corona.jpg" alt="Generic placeholder image" width="100" height="100">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+  </ul>
+</section>  
+<!-- /Abdul khaliq -->
 <!--Rodrigo-->
   <section class="mb-3 bg-white">
     <h3 class="text-secondary">MY TURN</h3>
@@ -577,6 +750,195 @@
       <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
     </div>
   </article>
+  <!-- ABDUL KHALIQ -->
+  <section class="">
+    <ul class="list-unstyled">
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media my-4 border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="">
+    <article class="card mb-4">
+      <div class="container p-0 my-3">
+        <span class="text-primary py-1 font-weight-bold">
+          <a href=#>WORLD</a>
+        </span>
+      </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    </article>
+    <ul class="list-unstyled">
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media my-4 border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="">
+    <article class="card mb-4">
+      <div class="container p-0 my-3">
+        <span class="text-primary py-1 font-weight-bold">
+          <a href=#>Business</a>
+        </span>
+      </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    </article>
+    <ul class="list-unstyled">
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media my-4 border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="">
+    <article class="card mb-4">
+      <div class="container p-0 my-3">
+        <span class="text-primary py-1 font-weight-bold">
+          <a href=#>Tech & Science</a>
+        </span>
+      </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    </article>
+    <ul class="list-unstyled">
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media my-4 border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="">
+    <article class="card mb-4">
+      <div class="container p-0 my-3">
+        <span class="text-primary py-1 font-weight-bold">
+          <a href=#>Culture</a>
+        </span>
+      </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    <div class="border-bottom mb-4 pb-3">
+      <img class="card-img-top" src="assets/capitol.jpg" alt="">
+      <div class="card-text text-secondary">
+        <h6 class="text-dark font-weight-bold mb-0">Pee in the shoe scratch leg;</h6>
+      </div>
+    </div>
+    </article>
+    <ul class="list-unstyled">
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media my-4 border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+      <li class="media border-bottom mb-3">
+        <img class="mr-3 p-2" src="./assets/genius-child.png" alt="Generic placeholder image" width="200px" height="150px">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">List-based media object Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+  </section>
+  <!-- /Abdul khaliq -->
 </section>
 <!--/Rodrigo-->
 

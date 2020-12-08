@@ -10,6 +10,20 @@ $container: (
   font-family: 'Roboto Condensed, sans-serif'
 );
 
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #hidden-md {
+    display: none !important;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #hidden-lg {
+    display: none !important;
+  }
+}
+
 .main {
   padding: 20px 15px 0 15px;
   background-color: rosybrown;

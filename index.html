@@ -10,14 +10,42 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body> 
-  <!-- Header -->
-  <header>
-    <nav class="d-flex justify-content-between navbar-expand-lg container-fluid bg-primary">
-      <div class="row container navbar-brand text-white ml-3 text-bolder">NewsWeek</div>
-      <div class="row container-fluid align-items-center d-flex justify-content-end p-1">
-        <i class="fas fa-user mr-3 text-white"></i>
-        <button class="btn bg-warning rounded mr-2" type="submit">Subscribe > </button>
-        <i class="fas fa-bars mr-2 text-white"></i>
+  <!-- Abdul khaliq Navigation Bar -->
+  <header class="">
+    <nav class="">
+      <!-- for bigger screen -->
+      <div class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between" id="hidden-lg">
+        <div class="col-auto align-self-center text-white text-weight-bold badge badge-secondary">
+          <span class="weather-country">
+            22° Lahore, PK >
+          </span>
+          <div class="col-1 flex-xs-6">
+            <p>Tue,Dec08,2020</p>
+          </div>
+        </div>
+        <div class="col-6 align-self-center text-white text-weight-bold display-1 d-flex justify-content-center border border-dark">NewsWeek</div>
+        <div class="col-auto d-flex align-items-center border border-dark">
+          <h3 class="m-2 text-white fs-3">LOGIN</h3>
+          <button type="button" class="btn btn-warning m-2 badge badge-secondary text-dark">Subsribe ></button>
+        </div>
+      </div>      
+      <!-- desktop navigation lg size-->
+      <div class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-lg-none" id="hidden-md">
+        <div class="col-auto align-self-center text-white text-weight-bold fs-2">NewsWeek</div>
+        <div class="col-auto d-flex align-items-center">
+          <h3 class="m-2 text-white fs-3">LOGIN</h3>
+          <button type="button" class="btn btn-warning m-2">Subsribe ></button>
+          <i class="fa fa-bars m-2 text-white fs-2" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- mobile navigation md size-->
+      <div class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-md-none" >
+        <div class="col-auto align-self-center text-white text-weight-bold fs-2">NewsWeek</div>
+        <div class="col-auto d-flex align-items-center">
+          <i class="fa fa-user m-2 text-white" aria-hidden="true"></i>
+          <button type="button" class="btn btn-warning m-2">Subsribe ></button>
+          <i class="fa fa-bars m-2 text-white" aria-hidden="true"></i>
+        </div>
       </div>
     </nav>
   </header>

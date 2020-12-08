@@ -35,11 +35,12 @@ $container: (
   max-width: 230px;
   height: 230px;
   justify-self: center;
+  left: 25%;
 
   .subscribe-img {
     width: 170px;
     height: 227px;
-    position: absolute;
+    left: 50%;
   }
 
   .img-bg {
@@ -49,8 +50,8 @@ $container: (
 
   .img-fg {
     top: 10px;
-    right: 0;
-    z-index: 2;
+    left: 80px;
+    z-index: 5;
   }
 }
 

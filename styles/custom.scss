@@ -28,36 +28,6 @@ html {
   font-size: 1rem;
 }
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
-
-.header-bottom::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  content: "";
-  display: block;
-  width: 22px;
-  background-color: #f72210;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
-}
-
 $theme-colors: (
   "primary": #ff4136,
 );
@@ -123,6 +93,15 @@ $container: (
   height: 150px !important;
 }
 
+.Desktop-tablet {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow-y: scroll !important;
+  height: 150vh;
+}
+
+
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   #hidden-md {
@@ -138,6 +117,19 @@ $container: (
 
   .mobile-col {
     display: none;
+  }
+  .tablet {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+  }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+  .desktop {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
   }
 }
 

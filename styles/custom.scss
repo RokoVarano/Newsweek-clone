@@ -89,15 +89,15 @@ $container: (
 }
 
 .image-md {
-  width: 200px !important;
-  height: 150px !important;
+  width: 200px ;
+  height: 150px ;
 }
 
 .Desktop-tablet {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  overflow-y: scroll !important;
+  overflow-y: scroll;
   height: 150vh;
 }
 
@@ -105,19 +105,20 @@ $container: (
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   #hidden-md {
-    display: none !important;
+    display: none;
   }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   #hidden-lg {
-    display: none !important;
+    display: none;
   }
 
   .mobile-col {
     display: none;
   }
+
   .tablet {
     position: -webkit-sticky !important;
     position: sticky !important;

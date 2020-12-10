@@ -9,8 +9,13 @@
   font-family: 'Roboto', sans-serif !important;
 }
 
-.z-index{
+.z-index {
   z-index: 999 !important;
+  top: 0;
+}
+
+.z-index-md {
+  z-index: 500 !important;
   top: 0;
 }
 

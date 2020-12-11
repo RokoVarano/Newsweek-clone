@@ -20,9 +20,8 @@
   <!-- Abdul khaliq Navigation Bar -->
   <header class="">
     <nav class="">
-      <!-- for bigger screen -->
-      <div class=""
-        id="hidden-lg">
+      <!-- for Desktop screen -->
+      <div class="" id="hidden-lg">
         <div class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between mx-0">
           <div class="col-4 align-self-center bg-none my-2">
             <h4 class="text-white text-weight-bold h6"><i class="fa fa-water"></i> 22° Lahore, PK ></h4>
@@ -43,41 +42,29 @@
           </div>
         </div>
         <!-- navbar bottom -->
-        <div class="contianer-fluid pb-1 border-bottom header-bottom border border-dark">
-          <div class="row">
-            <ul class="col-12 mt-3 d-flex flex-nowrap list-unstyled">
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">U.S.</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">World</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">Business</a></li>
-              <li class="col-auto px-2 border-right h5 text-nowrap"><a href="#"
-                  class="text-dark font-weight-bold">Tech & Science</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">Culture</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">Newsgeek</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">Sports</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">Health</a></li>
-              <li class="col-auto px-2 border-right h5 text-nowrap"><a href="#"
-                  class="text-dark font-weight-bold">The Debate</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">Vantage</a></li>
-              <li class="col-auto px-3 border-right h5"><a href="#"
-                  class="text-dark font-weight-bold">Weather</a></li>
-              <li class="col-auto p-0 d-flex position-relative w-auto border border-dark">
-                <input class="border-"
-                  style="width: 100px;"
-                  type="search"
-                  name="search"
-                  placeholder="Search">
-                <i class="fa fa-search d-inline position-absolute h5"
-                  style="right: 0;top: 20%;"></i>
-              </li>
-            </ul>
+        <div class="container-fluid ml-0 mt-3 border-bottom">
+          <div class="row col-auto flex-nowrap overflow-hidden">
+            <div class="col-auto px-2 border-right font-weight-bold p-0">U.S.</div>
+            <div class="col-1 px-2 border-right font-weight-bold p-0">World</div>
+            <div class="col-1 px-2 border-right font-weight-bold p-0">Business</div>
+            <div class="col-auto px-2 border-right font-weight-bold d-block p-0 text-nowrap"><p>Tech & Science</p></div>
+            <div class="col-1 px-2 border-right font-weight-bold p-0">Culture</div>
+            <div class="col-auto px-2 border-right font-weight-bold p-0">Newsgeek</div>
+            <div class="col-1 px-2 border-right font-weight-bold p-0">Sports</div>
+            <div class="col-1 px-2 border-right font-weight-bold p-0">Health</div>
+            <div class="col-auto px-2 border-right font-weight-bold p-0 text-nowrap">The Debate</div>
+            <div class="col-1 px-2 border-right font-weight-bold p-0">Vantage</div>
+            <div class="col-1 px-2 font-weight-bold p-0 position-relative">Weather
+            </div>
+            <div class="col-1 px-3 h5 font-weight-bold p-0">
+              <input class="border-"
+              style="width: 100px;"
+              type="search"
+              name="search"
+              placeholder="Search">
+            <i class="fa fa-search d-inline position-absolute h5"
+              style="right: 0;top: 20%;"></i>
+            </div>
           </div>
         </div>
         <div class="container-fluid mt-2 border-bottom">
@@ -100,7 +87,7 @@
         </div>
       </div>
       </div>
-      <!-- desktop navigation lg size-->
+      <!-- tablet navigation lg size-->
       <div
         class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-lg-none mx-0 position-fixed z-index"
         id="hidden-md">
@@ -1456,7 +1443,7 @@
     </div>
 
     <!-- Tablet -->
-    <div class="d-none d-md-block container-fluid"
+    <div class="d-none d-md-block d-lg-none container-fluid"
       id="tablet-and-desktop ">
 
       <div class="row Desktop-tablet">
@@ -3483,8 +3470,8 @@
 
     </div>
 
-  <!--Magazine-->
-  <div class="d-none d-md-block col-md-12 mx-auto">
+    <!--Magazine-->
+    <div class="d-none d-md-block col-md-12 mx-auto">
     <!--Magazine-->
     <section class="container-fluid">
       <nav class="navbar navbar-light bg-transparent mb-3 border-bottom justify-content-center">
@@ -3921,9 +3908,10 @@
     </div>
 
     <!--Subscribe-->
-    <div class='d-none d-md-block col-md-12 p-4 pb-0'>
-    <h6 class="text-primary bg-white font-weight-bold">SUBSCRIBE</h6>
-    <section class="bg-light subscribe p-2 mb-4">
+    <div class='d-none d-md-block p-0 m-0 p-lg-5'>
+      <div class="row m-0 p-0">
+    <section class="bg-light mb-4 mb-lg-0 col-lg-8 p-0">
+      <h6 class="text-primary bg-white font-weight-bold">SUBSCRIBE</h6>
       <div class="p-4 position-relative row">
         <div class="position-relative subscribe-img-container col-4"
           style='left: 0;'>
@@ -3934,7 +3922,8 @@
             alt=""
             class="subscribe-img img-fg position-absolute">
         </div>
-        <div class="card-body col-8">
+        <div class="col-1 m-0 p-0" style='max-width: 25px; min-width: 25px;'></div>
+        <div class="card-body col-7">
           <div class="card-title">
             <h4 class="mb-3"><strong>BIG TEXT</strong></h4>
           </div>
@@ -3948,8 +3937,8 @@
       </div>
     </section>
     <!-- NEWLETTER -->
-    <h6 class="text-primary bg-white font-weight-bold">NEWSLETTER</h6>
-    <section class="bg-white mt-3 newsletter">
+    <section class="bg-white mt-3 mt-lg-0 newsletter col-lg-4 p-0 pl-lg-4">
+      <h6 class="text-primary bg-white font-weight-bold">NEWSLETTER</h6>
       <div class="p-0 m-0 row">
         <img src="assets/newsletter-phone.png"
           alt=""
@@ -3962,19 +3951,19 @@
             Pee in the shoe scratch leg;
             meow for can opener to feed me, yet walk on keyboard meow meow.
           </div>
-          <form class="d-flex w-100">
+          <form class="d-flex w-100 row">
             <input type="text"
-              class="p-0 border w-100 pl-3"
+              class="p-0 border w-100 pl-3 col-md-6 col-lg-12 py-lg-2"
               placeholder="Email address">
             <input type="submit"
-              class="bg-primary text-white font-weight-bold border-1 border-primary w-100 py-2"
+              class="bg-primary text-white font-weight-bold border-1 border-primary w-100 py-2 col-md-6 col-lg-12 mt-lg-2"
               value="FREE SIGN UP >">
           </form>
         </div>
       </div>
     </section>
+  </div>
     </div>
-
   </main>
 
   

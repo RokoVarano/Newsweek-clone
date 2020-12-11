@@ -93,8 +93,8 @@
       </div>
       <!-- tablet navigation lg size-->
       <div
-        class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-lg-none mx-0 position-fixed z-index"
-        id="hidden-md">
+        class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-lg-none mx-0 position-fixed"
+        id="hidden-md" style="z-index: 90;">
         <div class="col-auto align-self-center text-white font-weight-bold fs-2">NewsWeek</div>
         <div class="col-auto d-flex align-items-center">
           <h4 class="m-2 text-white">LOGIN</h4>
@@ -108,7 +108,8 @@
       </div>
       <!-- mobile navigation md size-->
       <div
-        class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-md-none mx-0 position-fixed z-index">
+        class="container-fluid bg-danger row d-flex flex-row flex-nowrap justify-content-between d-md-none mx-0 position-fixed"
+        style="z-index: 90;">
         <div class="col-auto align-self-center text-white font-weight-bold fs-2">NewsWeek</div>
         <div class="col-auto d-flex align-items-center">
           <i class="fa fa-user m-2 text-white"
@@ -125,7 +126,7 @@
   </header>
 
   <!-- Main -->
-  <main class="container-fluid mt-5">
+  <main class="container-fluid p-5">
     <!-- mobile -->
     <div class="row d-md-none"
       id="mobile">
@@ -2785,7 +2786,7 @@
 
       </div>
 
-      <div class="col-lg-4 desktop">
+      <div class="col-lg-4 desktop" style="position: -webkit-sticky; top: 0;">
 
         <!-- Top Story -->
         <section>

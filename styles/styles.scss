@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .font-f {
-  font-family: 'Merriweather', serif !important;
+  font-family: 'Merriweather', serif;
 }
 
 .font-R {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 .z-index {
-  z-index: 999 !important;
+  z-index: 999;
   top: 0;
 }
 
 .z-index-md {
-  z-index: 500 !important;
+  z-index: 500;
   top: 0;
 }
 
@@ -119,20 +119,19 @@ $container: (
   }
 
   .tablet {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0 !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
   .desktop {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0 !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import "../node_modules/bootstrap/scss/bootstrap";

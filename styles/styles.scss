@@ -28,7 +28,8 @@ html {
 }
 
 $theme-colors: (
-  "primary": #ff4136,
+  "primary": #f72210,
+  "danger": #f72210
 );
 
 $pic-red-title: #f4f5f6;
@@ -61,24 +62,10 @@ $container: (
 .subscribe-img-container {
   max-width: 230px;
   height: 230px;
-  justify-self: center;
-  left: 25%;
 
   .subscribe-img {
     width: 170px;
     height: 227px;
-    left: 50%;
-  }
-
-  .img-bg {
-    top: 0;
-    left: 0;
-  }
-
-  .img-fg {
-    top: 10px;
-    left: 80px;
-    z-index: 5;
   }
 }
 
@@ -128,4 +115,4 @@ $container: (
   }
 }
 
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";

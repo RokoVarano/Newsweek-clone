@@ -6,7 +6,12 @@ This a a clone for the Newsweek website
 This website has been designed for a screen size of 1920 X 1080 in Mozilla Firefox browser.
 You can also download the repo and open the "index.html" file with Mozilla Firefox.
 
-The proyect is WIP, no screenshot can be shown yet
+## ** For Desktop **
+![desktop](./assets/desktop.png)
+## ** For Tablet **
+![Tablet](./assets/tablet.png)
+## ** For Mobile **
+![Tablet](./assets/mobile.png)
 
 The purpose of these project is to create a similar looking website to the Newsweek using the Bootstrap framework for HTML.
 
@@ -18,7 +23,7 @@ The purpose of these project is to create a similar looking website to the Newsw
 
 ## LIVE DEMO
 
-No live demo as of yet
+[Live Demo Link](https://rokovarano.github.io/Newsweek-clone/)
 
 ##  AUTHORS
 
@@ -34,8 +39,17 @@ No live demo as of yet
 - Twitter: [@twitterhandle](https://twitter.com/RodrigoIbacet11)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rodrigo-ibaceta-a8657611a/)
 
-## SHOW YOUR SUPPORT
-Give a :star: if you like this project.
+## :handshake: Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](issues/).
 
-## 📝 LICENSE
-MIT
+## Show your support
+Give a :star:️ if you like this project!
+
+## Acknowledgments
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## :memo: License
+This project is [MIT](lic.url) licensed.

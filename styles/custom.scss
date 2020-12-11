@@ -19,7 +19,7 @@
   top: 0;
 }
 
-.z-index-main{
+.z-index-main {
   position: relative;
   top: 56px;
 }
@@ -89,8 +89,8 @@ $container: (
 }
 
 .image-md {
-  width: 200px ;
-  height: 150px ;
+  width: 200px;
+  height: 150px;
 }
 
 .Desktop-tablet {
@@ -100,7 +100,6 @@ $container: (
   overflow-y: scroll;
   height: 150vh;
 }
-
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -125,6 +124,7 @@ $container: (
     top: 0 !important;
   }
 }
+
 /* // Medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
   .desktop {

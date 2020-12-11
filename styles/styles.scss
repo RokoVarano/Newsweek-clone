@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+$font-family-base: 'Roboto Condensed', sans-serif !default;
+
+.font-merry {
+  font-family: 'Merriweather', serif;
+}
+
+.z-index {
+  z-index: 999;
+  top: 0;
+}
+
+.z-index-md {
+  z-index: 500;
+  top: 0;
+}
+
+.z-index-main {
+  position: relative;
+  top: 56px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+$theme-colors: (
+  "primary": #f72210,
+  "danger": #f72210
+);
+
+$pic-red-title: #f4f5f6;
+
+$container: (
+  margin: 0,
+  padding: 0,
+);
+
+.card-image {
+  position: relative;
+
+  a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.font-small {
+  font-size: 13px;
+}
+
+.location-md {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+}
+
+.subscribe-img-container {
+  max-width: 230px;
+  height: 230px;
+
+  .subscribe-img {
+    width: 170px;
+    height: 227px;
+  }
+}
+
+.image-md {
+  width: 200px;
+  height: 150px;
+}
+
+.Desktop-tablet {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow-y: scroll;
+  height: 150vh;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #hidden-md {
+    display: none;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #hidden-lg {
+    display: none;
+  }
+
+  .mobile-col {
+    display: none;
+  }
+
+  .tablet {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+  .desktop {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

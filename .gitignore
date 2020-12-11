@@ -1,7 +1,6 @@
-.github
-package-lock.json
-node_modules
-.stylelintrc.json
-.hintrc
 .idea
 .hint-report
+styles/custom.css
+styles/custom.css.map
+node_modules
+bootstrap

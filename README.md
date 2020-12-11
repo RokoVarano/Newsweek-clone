@@ -13,7 +13,7 @@ You can also download the repo and open the "index.html" file with Mozilla Firef
 ## ** For Mobile **
 ![Tablet](./assets/mobile.png)
 
-The purpose of these project is to create a similar looking website to the Newsweek using the Bootstrap framework for HTML.
+The purpose of these project is to create a similar looking website to the Newsweek using the Bootstrap framework for CSS.
 
 ## BUILT WITH
 
@@ -31,17 +31,13 @@ The purpose of these project is to create a similar looking website to the Newsw
 
 - GitHub: [@AK-Devil](https://github.com/AK-Devil)
 - Twitter: [@AbdulKh99672072](https://twitter.com/AbdulKh99672072)
-- LinkedIn: [LinkedIn](https://linkedin.com/abdul-khaliq-89452b1a9)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-khaliq-89452b1a9/)
 
 👤 **Rodrigo Ibaceta Jimenez**
 
 - GitHub: [@githubhandle](https://github.com/RokoVarano)
 - Twitter: [@twitterhandle](https://twitter.com/RodrigoIbacet11)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rodrigo-ibaceta-a8657611a/)
-
-## :handshake: Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 Give a :star:️ if you like this project!
@@ -52,4 +48,4 @@ Give a :star:️ if you like this project!
 - etc
 
 ## :memo: License
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
